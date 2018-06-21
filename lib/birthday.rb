@@ -4,8 +4,7 @@
 #   "Amanda" => 27
 # }
 
-def happy_birthday(birthday_kids)
-  def happy_birthday(kids)
+def happy_birthday(kids)
   kids.each do |name, age|
     puts "Happy Birthday #{name}! You are now #{age} years old!"
   end
